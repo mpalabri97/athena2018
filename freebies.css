@@ -1,0 +1,136 @@
+
+ul{
+  list-style-type:none;
+}
+
+ol{
+  pacity: 0;
+  font-size: 1px;
+} 
+
+
+body{
+    font: 600 1.5em/1 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .35em;
+    height:  650px;
+    width: 100%;
+    background-image: url(https://ih0.redbubble.net/image.390334634.5558/flat,800x800,075,t.u1.jpg)
+}
+
+p{
+    font: 600 0.5em/1 'Raleway', sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    height:  40px;
+    width: 100%;
+    
+  
+}
+
+header{
+    font: 'Raleway', sans-serif;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    height:  155px;
+    text-align: center;
+    font-size: 50px;
+    border-style: solid; 
+}
+
+
+
+span {
+    font-size: 4em;
+    z-index: 100;
+    text-shadow: .04em .04em 0 #9cb8b3;
+}
+
+span:after {
+    content: attr(data-shadow-text);
+    text-shadow: none;
+    position: absolute;
+    left: .0875em;
+    top: .0875em;
+    z-index: -1;
+    -webkit-mask-image: url(https://f.cl.ly/items/1t1C0W3y040g1J172r3h/mask.png);
+}
+
+h2{
+    font: 600 1.5em/1 'Raleway', sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    height:  20px;
+    width: 100%;
+}
+
+
+
+h3{
+    font: 600 0.5em/1 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.25em;
+    height:  20px;
+    width: 100%; 
+}
+
+.links{
+  margin: 0;
+  padding: 0;
+  background-color:  #FFFFFF;
+  color: #000000;
+  font: 600 1.5em/1 'Raleway', sans-serif;
+}
+
+.site-name{
+  color: #000000;
+  font-size: 10px;
+  padding: 14px;
+  padding-left: 40px;  
+  font: 600 1em/1 'Raleway', sans-serif;
+}
+
+
+table.GeneratedTable {
+  width: 100%;
+  background-color: #ebebebeb;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #74ffd5;
+  border-style: solid;
+  color: #333333;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+  padding: 3px;
+  
+}
+
+table.GeneratedTable thead {
+  background-color: #78ff91;
+  
+}
+
+.cellformat {
+   height: 80px;
+   width: 180px;
+   overflow: auto;
+   color: #FFFFFF;
+}
+
+.tablebody {
+  text-transform: none;
+  font-family: 'Lucida Console', Georgia, sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.tableheader{
+  opacity: 0.5;}
